@@ -45,14 +45,14 @@ export default function Home() {
 
   const modalContent = (
     <motion.div
-    initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
-    animate={{
-      scale: 1,
-      opacity: 1,
-      transition: { duration: 0.6, type: "spring" },
-    }}
-    className="  min-w-[45vw] gap-4 flex flex-col justify-between z-30  items-center fixed top-1/2 left-1/2 rounded-2xl  -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75  backdrop-blur-md py-10"
-  >
+      initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
+      animate={{
+        scale: 1,
+        opacity: 1,
+        transition: { duration: 0.6, type: "spring" },
+      }}
+      className="  min-w-[45vw] gap-4 flex flex-col justify-between z-30  items-center fixed top-1/2 left-1/2 rounded-2xl  -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75  backdrop-blur-md py-10"
+    >
       <h2 className="text-4xl dark:text-dark text-light font-semibold mb-4 text-center ">
         {" "}
         Today's Questionaire!!
@@ -95,7 +95,10 @@ export default function Home() {
       >
         D) To declare a variable
       </motion.button>
-      <button onClick={closeModal} className="text-light/90 dark:text-dark/90 hover:underline">
+      <button
+        onClick={closeModal}
+        className="text-light/90 dark:text-dark/90 hover:underline"
+      >
         Close
       </button>
     </motion.div>
@@ -140,7 +143,7 @@ export default function Home() {
                   download={true}
                 >
                   Sign In
-                  <LinkArrow className={"w-3 ml-1 sm:!w-5"} />
+                  <LinkArrow className={"!w-3 ml-1 sm:!w-5"} />
                 </Link>
                 <Link
                   href="mailto:ganeshkrishnadoss@gmail.com"

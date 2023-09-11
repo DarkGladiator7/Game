@@ -51,18 +51,12 @@ const about = () => {
               <h2 className=" text-lg font-bold uppercase text-dark/75 dark:text-light/75 md:text-center md:relative md:w-full">
                 Job Title:
               </h2>
-              <p className="text-3xl md:text-center mb-3">Software Developer</p>
+              <p className="text-3xl md:text-center mb-3">Full Stack Developer</p>
               <h2 className="text-lg font-bold uppercase text-dark/75 dark:text-light/75 md:text-center md:relative md:w-full">
                 Job Description
               </h2>
               <p className="font-medium md:text-center">
-                A software developer is a professional who creates computer
-                software and applications, writing code to bring ideas to life.
-                They collaborate with teams to design, develop, and test
-                software, ensuring it meets user requirements and functions
-                efficiently. Software developers must stay updated with evolving
-                technologies and practices to deliver high-quality, innovative
-                solutions.
+              A full-stack developer is a versatile professional proficient in both front-end and back-end web development. They possess expertise in programming languages like JavaScript, HTML, and CSS for creating visually appealing and interactive user interfaces. Additionally, they are skilled in server-side scripting, databases, and server management, enabling them to design and implement the server infrastructure, manage databases, and handle data storage and retrieval. Full-stack developers bridge the gap between user experience and server functionality, making them capable of developing end-to-end web applications independently or as part of a team, with a comprehensive understanding of the entire development stack.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8 md:p-4 md:-right-9">

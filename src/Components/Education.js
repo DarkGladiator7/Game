@@ -43,25 +43,25 @@ const Education = () => {
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+        <ul className="w-full flex flex-col items-start justify-items-start  xs:ml-2">
           <Details
-            type="Bachelor Of Engineering In Computer Science and Engineering"
-            time="2021-2025 "
-            place="Sri Sairam Engineering College"
-            info="Exploring the foundations and advancements of computer science, including programming, algorithms, data structures, software engineering, and more, to prepare for a dynamic career in the world of technology."
+            type="Frontend"
+            time="2-3 months"
+            
+            info="Front-end development involves creating the user interface and experience. Required skills include proficiency in HTML, CSS, JavaScript, responsive design, and familiarity with front-end frameworks like React or Angular."
           />
           <Details
-            type="Higher Secondary In Computer Science "
-            time="2020-2021"
-            place="Chinmaya Vidyalaya"
-            info="Exploring the foundations and advancements of computer science, including programming, algorithms, data structures, software engineering, and more, to prepare for a dynamic career in the world of technology."
+            type="Backend"
+            time="1-2 months"
+            
+            info="Backend development involves server-side programming, database management, and server infrastructure setup. Key skills include proficiency in server-side languages (e.g., Node.js, Python), databases (SQL/NoSQL), and server management (e.g., AWS, Docker)."
           />
           <Details
-            type="Online Coursework"
-            time="2020-2023"
-            place="Coursera, EdX, Udemy, LinkedIn"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Image Processing, Deep Learning and Machine 
-            Learning Engineering."
+            type="DevOps"
+            time="3 months"
+      
+            info="DevOps is a software development approach that combines development and IT operations. Skills required include automation, containerization, continuous integration/continuous deployment (CI/CD), and collaboration for efficient software delivery and infrastructure management.
+            "
           />
         </ul>
       </div>

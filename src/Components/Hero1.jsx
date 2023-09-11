@@ -105,7 +105,7 @@ const Hero1= () => {
     <Section>
       <Container>
         
-          <Canvas className="relative -top-1">
+          <Canvas className="relative -top-12">
             <Suspense fallback={null}>
               <OrbitControls enableZoom={false} />
               <ambientLight intensity={1} />

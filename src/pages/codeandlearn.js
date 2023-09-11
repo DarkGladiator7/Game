@@ -52,7 +52,7 @@ const codeandlearn = () => {
                    dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
           >
             Jump Around
-            <LinkArrow className={"w-3 ml-1 sm:!w-5"} />
+            <LinkArrow className={"!w-3 ml-1 sm:!w-5"} />
           </Link>
         </button>
       </motion.div>
