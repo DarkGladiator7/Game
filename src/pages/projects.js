@@ -58,10 +58,10 @@ const Project = ({ type, title, img, link, github }) => {
           >
             Visit
           </Link>
-          <Link href={github} className="w-8 md:w-6" target={"_blank"}>
+          {/* <Link href={github} className="w-8 md:w-6" target={"_blank"}>
             {" "}
             <GithubIcon />{" "}
-          </Link>
+          </Link> */}
         </div>
       </div>
     </article>
@@ -105,16 +105,16 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         </Link>
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm sm:font-normal ">{summary}</p>
         <div className="mt-2 flex items-center ">
-          <Link href={github} className="w-10" target={"_blank"}>
+          {/* <Link href={github} className="w-10" target={"_blank"}>
             {" "}
             <GithubIcon />{" "}
-          </Link>
+          </Link> */}
           <Link
             href={link}
             target={"_blank"}
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
+            className=" rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
           >
-            Visit Project
+            Visit Resource
           </Link>
         </div>
       </div>
@@ -140,59 +140,59 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 img={project1}
-                title="Modern E-commerce Website "
+                title="TailwindCss Beginner Approach"
                 summary="Developed a modern E-commerce website utilizing React JS, Tailwind CSS, and
                 Firebase as the database. Implemented a sleek and intuitive user interface to
                 enhance the online shopping experience, enabling seamless product browsing,
                 secure transactions."
                 link="https://ecommerce-website-hazel-three.vercel.app"
-                type="Featured Project"
+                type="Featured Course"
                 github="https://github.com/DarkGladiator7/Ecommerce_Website"
               />
             </div>
             <div className="col-span-6 sm:col-span-12 ">
               <Project
                 img={project2}
-                title="Simple Expense Tracker "
+                title="ReactJs Intro"
                 link="https://expense-tracker-alpha-ten.vercel.app"
-                type="Project"
+                type="Course"
                 github="https://github.com/DarkGladiator7/Expense_Tracker"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 img={project3}
-                title="Library Management System"
+                title="Gui Tkinter"
                 link="https://github.com/DarkGladiator7/MagLibraryManagement"
-                type="Project"
+                type="Course"
                 github="https://github.com/DarkGladiator7/MagLibraryManagement"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
                 img={project4}
-                title="My Portfolio Website"
+                title="NextJs A New Way"
                 summary="Crafted with Next.js for seamless navigation, Tailwind CSS for stunning aesthetics, and Framer Motion for captivating animations, this site embodies the fusion of cutting-edge technology and design finesse. Explore a collection of my projects that exemplify innovation and dedication, as I strive to transform ideas into immersive digital experiences."
                 link="https://ganeshkportfolio.vercel.app"
-                type="Featured Project"
+                type="Featured Course"
                 github="https://github.com/DarkGladiator7/My-Portfolio"
               />
             </div>
             <div className="col-span-6 sm:col-span-12 ">
               <Project
                 img={project5}
-                title="Detection of Gastrointestinal Diseases"
+                title="Deep Learning Module"
                 link="https://github.com/DarkGladiator7/gastrointestinaldiseaseprediction"
-                type="Project"
+                type="Course"
                 github="https://github.com/DarkGladiator7/gastrointestinaldiseaseprediction"
               />
             </div>
             <div className="col-span-6 sm:col-span-12 ">
               <Project
                 img={project6}
-                title="Simple Food Order App "
+                title="Vanilla Javascript"
                 link="https://food-order-page.vercel.app"
-                type="Project"
+                type="Course"
                 github="https://github.com/DarkGladiator7/FoodOrderPage"
               />
             </div>

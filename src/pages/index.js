@@ -120,7 +120,7 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Where Learning Meets Passion"
+                text="Passion Powers Education: A Gamified Journey"
                 className="!text-6xl !text-left 
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!5xl sm:!text-3xl md:relative md:left-1.5"
               />
@@ -135,12 +135,12 @@ export default function Home() {
                 <Link
                   href="/resume.pdf"
                   target={"_blank"}
-                  className="flex flex-row items-center bg-dark text-light p-2.5 px-8 rounded-lg md:p-2 md:px-4 md:text-base sm:text-sm
+                  className="flex flex-row  items-center bg-dark text-light p-2.5 px-8 rounded-lg md:p-2 md:px-4 md:text-base sm:text-sm
                    dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
                   download={true}
                 >
                   Sign In
-                  <LinkArrow className={"w-4 ml-1 sm:!w-5"} />
+                  <LinkArrow className={"w-3 ml-1 sm:!w-5"} />
                 </Link>
                 <Link
                   href="mailto:ganeshkrishnadoss@gmail.com"

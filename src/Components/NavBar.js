@@ -90,7 +90,7 @@ const NavBar = () => {
           <CustomLink href="/about" title="Career Catalyst" className="mx-4" />
           <CustomLink href="/projects" title="Resources" className="mx-4" />
           <CustomLink href="/analytics" title="Analytics" className="mx-4" />
-          <CustomLink href="/articles" title="Code and Learn" className="ml-4" />
+          <CustomLink href="/codeandlearn" title="Code and Learn" className="ml-4" />
         </nav>
 
         <nav className=" absolute right-16 flex items-center justify-center flex-wrap">
@@ -254,7 +254,7 @@ const NavBar = () => {
         </motion.div>
       ) : null}
 
-      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
+      <div className="absolute left-[50%] top-2  translate-x-[-50%]">
         <Logo />
       </div>
     </header>
