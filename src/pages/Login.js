@@ -88,7 +88,7 @@ const Login = () => {
       <LoginForm />
       <div className="w-full flex flex-col items-center justify-center">
         <div className="w-full flex items-center justify-center pr-7 gap-7">
-          <img className="w-36" src={googleLogo} alt="altlogo" />
+          <Image className="w-36" src={googleLogo} alt="altlogo" />
 
           <div
             onClick={handleGoogleLogin}
