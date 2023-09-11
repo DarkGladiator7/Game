@@ -36,23 +36,23 @@ const codeandlearn = () => {
         className=" absolute ml-36 flex flex-col  items-center justify-center  top-20 pt-20 mt-36 text-center"
       >
         <AnimatedText
-          className=" 2xl:!text-7xl md:!text-7xl s:!text-6xl xs:!text-5xl"
-          text="Welcome to Our G-Code"
+          className=" 2xl:!text-6xl md:!text-7xl s:!text-6xl xs:!text-5xl"
+          text="Welcome to your Battleground"
         />
 
         <AnimatedText
-          className="!text-base !font-medium  2xl:!text-small md:!text-7xl s:!text-6xl xs:!text-5xl"
-          text="Click the button to navigate"
+          className="!text-lg !font-medium  2xl:!text-small md:!text-7xl s:!text-6xl xs:!text-5xl"
+          text="Click the button to battle"
         />
         <button>
           <Link
-            href="https://leet-rust.vercel.app/"
+            href="https://leet-rust.vercel.app/problems/two-sum"
             target={"_blank"}
             className=" flex items-center text-center mt-3 mb-36 bg-dark text-light p-2.5 px-4 rounded-lg md:p-2 md:px-4 md:text-base sm:text-sm
                    dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
           >
-            Jump Around
-            <LinkArrow className={"!w-3 ml-1 sm:!w-5"} />
+            Lessgoo...
+           
           </Link>
         </button>
       </motion.div>
