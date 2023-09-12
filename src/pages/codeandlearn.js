@@ -36,7 +36,7 @@ const codeandlearn = () => {
         className=" absolute ml-36 flex flex-col  items-center justify-center  top-20 pt-20 mt-36 text-center"
       >
         <AnimatedText
-          className=" 2xl:!text-6xl md:!text-7xl s:!text-6xl xs:!text-5xl"
+          className=" !text-6xl 2xl:!text-5xl md:!text-7xl s:!text-6xl xs:!text-5xl"
           text="Welcome to your Battleground"
         />
 
