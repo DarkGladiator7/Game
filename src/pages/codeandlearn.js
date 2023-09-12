@@ -46,13 +46,12 @@ const codeandlearn = () => {
         />
         <button>
           <Link
-            href="https://leet-rust.vercel.app/problems/two-sum"
+            href="https://g-code-production.vercel.app/problems/two-sum"
             target={"_blank"}
             className=" flex items-center text-center mt-3 mb-36 bg-dark text-light p-2.5 px-4 rounded-lg md:p-2 md:px-4 md:text-base sm:text-sm
                    dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
           >
             Lessgoo...
-           
           </Link>
         </button>
       </motion.div>

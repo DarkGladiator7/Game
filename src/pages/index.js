@@ -55,7 +55,7 @@ export default function Home() {
     >
       <h2 className="text-4xl dark:text-dark text-light font-semibold mb-4 text-center ">
         {" "}
-        Today's Questionaire!!
+        Today&apos;s Questionaire!!
       </h2>
 
       <AnimatedText

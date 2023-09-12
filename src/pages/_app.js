@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
         className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}
       >
         <Provider store={store}>
-          <PersistGate loading={"loading"} persistor={persistor}>
+          <PersistGate persistor={persistor}>
             <NavBar />
             <AnimatePresence mode="wait">
               
